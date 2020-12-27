@@ -1,0 +1,239 @@
+:root{
+font-size: 16px;
+box-sizing: border-box;
+--green: #65e496;
+--gray: #695980;
+--dark: #44444f;
+}
+*,
+*::after,
+*::before {
+    box-sizing:inherit;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+.logo{
+position: relative;
+left: -500px;
+}
+body {
+    font-family: 'Roboto Slab',serif;
+}
+.wrap{
+max-width: 500px;
+margin: 0 auto;  
+}
+ul.nav{
+    margin-left: 10px;
+    position: relative;
+    padding-left: 0px;
+    list-style: none;
+}
+.nav li { 
+display:inline-table;
+}
+ul.nav a {
+    display: inline-block;
+    font-family: 'Open Sans';
+    width: 6em;
+    padding:1px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;}
+    .header{
+        background-image: -moz-linear-gradient(150deg,rgb(84,183,161)0%,rgb(66,99,132)100%);
+        background-image: -webkit-linear-gradient(15deg,rgb(84,183,181)0%,rgb(66,99,132)100%);
+        background-image: linear-gradient(150deg,rgb(84,183,161))0%,rgb(66,99,132)100%;
+        height:1024px;
+        }
+        .book{
+            position: relative;
+            left:-100px;
+            top:5px;
+            margin-top: 40px;
+            }
+        .block-desc__author {
+            position: relative;
+            left:-20px;
+            top: -100px;
+            font-size: 14px;
+            font-family: "Open Sans";
+            color: rgb(101, 228, 150);
+             }
+            .block-desc__title {
+            position: relative;
+            left: 400px;
+            bottom:620px;
+            font-size: xx-large;
+            font-family: 'Roboto slab';
+            color: #fff;
+            font-weight: bold;
+            }
+            .block-intro{
+                display: flex}
+            .block-desc__text{
+            font-family: 'Open Sans';
+            position: relative;
+            bottom: 560px;
+            left: 400px;
+            font-size: 1rem;
+            color: #fff;
+            }
+            .block-book__tittle {
+                position: relative;
+            left: 40px;
+            bottom:600px;
+            font-size: xx-large;
+            font-family: 'Roboto slab';
+            color: #fff;
+            font-weight: bold;
+            }
+            .block-desc__room{
+                position: relative;
+                left: 400px;
+                bottom:730px;
+                font-size: 1.2em;
+                font-family: 'Roboto slab';
+                color: rgb(101, 228, 150);
+            }
+            .block-button {
+            position: relative;
+            left: 400px;        
+            bottom: 450px;
+            }
+            .price{
+            font-size: 1em;
+            position: relative;
+            left: 450px;        
+            bottom: 487px;
+            color: #fff;
+            font-family: 'Open Sans';
+            }
+            .block-desc__subtitle {
+            position: relative;
+            font-family: 'Open Sans';
+            color: rgb(101, 228, 150);
+            left:30px;
+            top: -500px;
+            }
+            .block-book__author{
+            color: #fff;
+            position: relative;
+            font-family: 'Open Sans';
+            bottom:630px;
+            right: -390px;
+            font-size: large;
+            }
+            .block-desc__small {
+            position: relative;
+            font-family: 'Open Sans';
+            font-size: small;
+            color:#fff;
+            bottom: 350px;
+            left: 400px;
+            }
+            .block-ava__grad {
+            position: relative;
+            bottom: 100px;
+            left: 700px;
+            }
+            
+            .block-ava__img {
+            position: relative;
+            left: 650px;
+            bottom: 620px;
+            }
+            .block-info__author{
+            position: relative;
+            font-family: 'Open Sans';
+            right:300px;
+            top: 150px;
+            }
+            .block-info__title{
+            position: relative;
+            font-family: 'Robo Slab';
+            right:300px;
+            top: 180px;
+            font-size: 3.5em;
+            }
+            .block-info__subtitle{
+            font-family: 'Open Sans';
+            position: relative;
+            right: 300px;
+            color: rgb(101, 228, 150);
+            top: 180px;
+            font-size: large;
+            }
+            .block-info__desc{
+            font-family: 'Open Sans';
+            position: relative;
+            right: 300px;
+            top: 220px;
+            font-size: 16px;
+            }
+            .block-info__desc2{
+                font-family: 'Open Sans';
+                position: relative;
+                right: 300px;
+                top: 260px;
+                font-size: 16px;
+            }
+            .block-info__bio{
+            position: relative;
+            font-family: 'Open Sans';
+            top: 400px;
+            right: 350px;
+             }
+             .block-grenbutton{
+            position: relative;
+            top: 655px;
+            right: 400px;
+             }
+           .block-biography{
+           position: relative;
+           top: 420px;
+           right: 340px;
+           }
+           .block-counter {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            padding: 150px 0;
+            bottom: 550px;
+            }
+            .block-counter__item {
+            text-align: center;
+            color: var(--dark);
+            font-size: 1.125rem;
+
+            }
+            .block-counter__digit {
+            font-size: 5rem;
+            font-weight: 100;
+            color: var(--green);
+            letter-spacing: 5px;
+            display: block;
+            padding-bottom: 20px;
+            }
+            .block--gray {
+                background-color: #f5f6fa;
+                top: -430px;
+                position: relative;
+                
+                
+
+
+
+
+
+
+       
+            
+
+
+            
+
+
+
+          
