@@ -26,12 +26,11 @@
     display: inline-block;
     padding: 15px 20px ;
     border-radius: 3px;
-    background-image: -moz-linear-gradient(180deg,rgb(101,228,206,) 0%, rgb (101,228,161) 100%);
-    background-image: -webkit-linear-gradient(180deg,rgb(101,228,206,) 0%, rgb (101,228,161) 100%);
-    background-image: linear-gradient(180deg,rgb(101,228,206,) 0%, rgb (101,228,161) 100%);
-    box-shadow: 0px 2px 0px 0px rgba(101, 228, 125, 0.5);
+    background-image: -moz-linear-gradient( 180deg, rgb(101,228,206) 0%, rgb(101,228,161) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(101,228,206) 0%, rgb(101,228,161) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(101,228,206) 0%, rgb(101,228,161) 100%);
+    color:#fff;
     text-decoration: none;
-    ;
     font-size: 1.125rem;
     }
     .block{
@@ -80,6 +79,7 @@
     .block-desc{
     flex-basis: 50%;
     margin:0 auto;
+    font-family: 'Open Sans';
     }
     .block-book__title{
     padding-top: 180px;
@@ -135,7 +135,7 @@
     font-family: 'Open Sans';
     }
     .block-info__title{
-    color: var(--gray);
+    color: var(--dark);
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 3px;
@@ -148,7 +148,7 @@
     padding-bottom: 10px;
     }
     .block-info__desc{
-    color: var(--gray);
+    color: var(--dark);
     font-size: 0.9rem;
     font-family: 'Open Sans';
     padding-top: 30px;
@@ -184,6 +184,12 @@
     text-align: center;
     font-size: 3rem;
     letter-spacing: 3px;
+    }
+    .block-subtitle{
+    color: var(--green);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     }
     .block__subtitle {
     color: var(--green);
@@ -253,6 +259,33 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 1.5rem;
+    font-family: 'Roboto slab';
+    position: relative;
+    left:10px;}
+    
+    .book-preview__subtitle{
+    font-family: 'Open Sans';
+    font-size: small;
+    left: 69px;
+    top:15px;
+    position: relative;
+    color: var(--green);
+    }
+    .block-lib__desc{
+    position: relative;
+    font-family: 'Open Sans';
+    font-size: small;
+    }
+    
+
+
+    .book-preview__author{
+    font-family: 'Open Sans';
+    position: relative;
+    top:265px;
+    left:100px;
+    font-size: x-small;
+    color: var(--green);
     }
     .block-review{
     background-image: url(./img/review.svg);
@@ -294,6 +327,8 @@
     max-width: 760px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Open Sans';
+    color: #9191b5;
     }
     .block-review-control {
     list-style-type: none;
@@ -308,7 +343,7 @@
     background-image: -webkit-linear-gradient(180deg, rgb(101,228,206)0%, rgb(101,228,161) 100%);
     background-image: -ms-linear-gradient(180deg, rgb(101,228,206)0%, rgb(101,228,161) 100%);
     width: 8px;
-    height: 8px;
+    height: 9px;
     display: inline block;
     margin-left: 10px;
     }
@@ -326,6 +361,10 @@
     }
     .block-ava__img--left {
     left: 50px;
+    }
+    .block-event__text {
+    font-family: 'Open Sans';
+    
     }
     .blog {
     display: flex;
@@ -408,3 +447,4 @@
     background-color: var(--dark);
     padding: 160px 0;
     }
+    
