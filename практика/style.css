@@ -190,12 +190,31 @@
     font-weight: 700;
     letter-spacing: 3px;
     margin-top: 15px;
+    font-family: 'Roboto Slab';
     }
+
     .block-info__subtitle{
     color:var(--green);
     font-size: 1.125rem;
-    margin-top: 16px;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    }
+    .block-event__date{
+    color: var(--gray);
+    margin-top: 50px;
+    }
+    .block-event__title{
+    font-family: 'Roboto Slab';
+    line-height: 45px;
+    }
+    .block-event__text{
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    }
+    .block-events__title{
+    font-family: 'Roboto Slab';
+    margin-top: 20px;
+    line-height: 45px;
     }
     .block-info__desc{
     color: var(--dark);
@@ -231,6 +250,11 @@
     bottom: 30px;
     
     }
+    .block-lib__title{
+    text-align: center;
+    margin-left: -50px;
+    }
+
     .block--gray{
     background-color: #f5f6fa;
     }
@@ -329,11 +353,18 @@
     .block-lib__desc{
     position: relative;
     font-family: 'Open Sans';
-    font-size: small;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 50px;
+    }
+    .block-lib__link{
+    text-align: center;
+    color: var(--green);
+    margin-left: 100px;
+    font-family: 'Roboto Slab';
+    text-decoration:none;
     }
     
-
-
     .book-preview__author{
     font-family: 'Open Sans';
     position: relative;
@@ -499,6 +530,9 @@
     .block-info__title--subscribe {
     margin:0;
     line-height: 0.9;
+    }
+    .blog-article_author--green{
+    color: var(--green);
     }
     .block-footer {
     background-color: var(--dark);
