@@ -15,7 +15,7 @@
     line-height: 1;
     }
     body{
-    font-family: 'Roboto Slab',serif;
+    font-family: 'Open Sans',serif;
     }
     .wrap{
     max-width: 1171px;
@@ -67,6 +67,28 @@
     .header__intro {
     margin-top: 180px;
     }
+    .block-desc__text{
+    font-size: 1em;
+    color: #fff;
+    margin-top: 20px;
+    }
+    .block-desc__author{
+    color: #fff;
+    }
+    .block-desc__subtitle{
+    color: var(--green);
+    }
+    .block-desc__small{
+    color: #fff;
+    font-size: small;
+    }
+    .block-desc__title{
+    font-family: 'Roboto Slab';
+    color: #fff;
+    }
+    .block-desc__btn{
+    margin-top: 50px;
+    }
     .block-book{
     background-image: url('./img/book.png');
     background-repeat: no-repeat;
@@ -88,6 +110,34 @@
     font-size: 2.25rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    }
+    .block__title{
+    font-family: 'Roboto Slab';
+    }
+    .block__subtitle{
+    position: relative;
+    bottom: 30px;
+    }
+    .block-about__desc{
+    font-family: 'Open Sans';
+    color: var(--dark);
+    font-size: 15px;
+    }
+    .block-about__feature{
+    font-family: 'Roboto Slab';
+    margin-top: 20px;
+    }
+    .block-about__title{
+    font-family: 'Roboto Slab';
+    margin-bottom: 20px;
+    }
+    .block-table__table{
+    font-family: 'Roboto Slab';
+    margin-top: 10px;
+    }
+    
+    .block-table__btn{
+    margin-top:10px;
     }
     .block-book__subtitle{
     color:var(--green);
@@ -176,6 +226,11 @@
     display: block;
     padding-bottom: 20px;
     }
+    .block__title{
+    position: relative;
+    bottom: 30px;
+    
+    }
     .block--gray{
     background-color: #f5f6fa;
     }
@@ -234,7 +289,7 @@
     left: -55px;
     background-image: -moz-linear-gradient(180deg, rgb(101,228,206)0%, rgb(101,228,161) 100%);
     background-image: -webkit-linear-gradient(180deg rgb(101,228,206)0%, rgb(101,228,161) 100%);
-    background-image: -ms-linear-gradient(180deg rgb(101,228,206)0%, rgb(101,228,161) 100%);
+    background-image: linear-gradient(180deg rgb(101,228,206)0%, rgb(101,228,161) 100%);
     padding: 5px 8px;
     font-family: 'Open Sans';
     font-size: 0.9rem;
@@ -328,6 +383,8 @@
     margin: 0 auto;
     text-align: center;
     font-family: 'Open Sans';
+    letter-spacing:0.2rem;
+    font-size: small;
     color: #9191b5;
     }
     .block-review-control {
