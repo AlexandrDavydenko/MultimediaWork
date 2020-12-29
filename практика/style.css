@@ -356,6 +356,8 @@
     font-size: 14px;
     text-align: center;
     margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     }
     .block-lib__link{
     text-align: center;
@@ -408,7 +410,9 @@
     letter-spacing: 0.03em;
     padding-top: 12px;
     font-family: 'Open Sans';
+    margin-bottom: 20px;
     }
+    
     .block-review__text {
     max-width: 760px;
     margin: 0 auto;
@@ -435,6 +439,7 @@
     display: inline block;
     margin-left: 10px;
     }
+    
     .block-info--event {
     padding-left: 55px;
     
@@ -499,6 +504,14 @@
     width: 265px;
     text-align: center;
     margin-top: 90px;
+    }
+    .block__browse{
+    display: block;
+    margin: 0 auto;
+    width: 265px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 23em;
     }
     .block-subscribe {
     display: flex;
